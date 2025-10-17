@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #044F6C;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002342;
+  padding: 15px 30px;
+  color: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 2px;
+  margin-left: 0% ;
+}
+.nav-right{
+  display: flex;                 
+  justify-content: flex-end;     
+  align-items: center;           
+  background-color: #0FBDE5;        
+  padding: 15px 30px;
+}
+
+.nav-right a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  
+  
+}
+
+.url-shortener {
+  background-color: white;
+  width: 400px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.url-shortener h3 {
+  margin-top: 0;
+  color: #004466;
+}
+
+.input-url, .input-alias {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.customize-section {
+  margin-top: 20px;
+}
+
+.customize-inputs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.domain {
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.shorten-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shorten-btn:hover {
+  background-color: #218838;
+}
+
+.terms {
+  font-size: 12px;
+  margin-top: 15px;
+  color: #555;
+}
+
+.terms a {
+  color: #004466;
+  text-decoration: underline;
+}
